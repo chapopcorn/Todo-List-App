@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 2px solid grey;
+}
+
+.App-pic {
+  height: 80px;
+}
+
+.App-header {
+  margin-bottom: 20px;
+  background-image: linear-gradient(-100deg,#ed4264, #ffedbc);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+ 
+input[type=text]{
+  width: 40%;
+  padding: 15px;
+  border: 2px solid grey;
+  font-family: arial;
+  font-size: 20px;
+  border-right: 2px solid white;
+}
+
+input[type=submit] {
+  width: 10%;
+  padding: 15px;
+  font-family: arial;
+  border: 2px solid #ed4264;
+  background-color: #ed4264;
+  color: white;
+  font-size: 20px;
+  
+}
+
+input[type=submit]:hover, a:hover {
+  background-color: white;
+  color: #ed4264;
+}
+
+li {
+  background: white;
+  padding: 15px;
+  width: 70%;
+  color: black;
+  list-style-type: none;
+  margin: 50px;
+  border-bottom: 2px solid grey;
+  font-family: Sans-serif;
+  font-size: 20px;
+}
+
+
+a{
+  padding: 10px;
+  border: 2px solid #ed4264;
+  border-radius: 50%;
+  width: 20px ;
+  height:20px;
+  text-decoration: none;
+  color: white;
+  background-color: #ed4264;
+  float: right;
+  margin: 5px;
+}
